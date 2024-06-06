@@ -1,0 +1,19 @@
+{
+  "authType": "page",  
+  "basicAuth": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "digestAuth": {
+    "username": "yourUsername",
+    "password": "yourPassword"
+  },
+  "pageAuth": {
+    "loginUrl": "https://practice.expandtesting.com/login",
+    "username": "practice",
+    "password": "SuperSecretPassword!",
+    "usernameField": "#username",
+    "passwordField": "#password",
+    "submitField": "#login > button"
+  }
+}
